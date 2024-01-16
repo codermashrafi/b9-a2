@@ -382,6 +382,7 @@ header .header-banner .header-heading .header-btn a i {
   background-size: cover;
   position: relative;
   height: 80vh;
+  border-radius: 20px;
 }
 .deals .main-deals .single-deals .deals-satorini {
   position: absolute;

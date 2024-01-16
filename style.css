@@ -366,13 +366,12 @@ header .header-banner .header-heading .header-btn a i {
 .newsletter .main-newsletter {
   display: flex;
   justify-content: space-between;
-  gap: 24px;
+  gap: 10px;
 }
 .newsletter .main-newsletter .newsletter-text {
-  width: 40%;
   border-radius: 16px;
   border: 1px solid #ff5400;
-  padding: 30px;
+  padding: 40px;
 }
 .newsletter .main-newsletter .newsletter-text h3 {
   color: #131318;

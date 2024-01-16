@@ -408,12 +408,11 @@ header {
   .main-newsletter {
     display: flex;
     justify-content: space-between;
-    gap: 24px;
+    gap: 10px;
     .newsletter-text {
-      width: 40%;
       border-radius: 16px;
       border: 1px solid #ff5400;
-      padding: 30px;
+      padding: 40px;
       h3 {
         color: #131318;
         font-size: 24px;
@@ -512,3 +511,7 @@ footer {
   }
 }
 // footer
+// media
+
+@media screen and (max-width: 576px) {
+}

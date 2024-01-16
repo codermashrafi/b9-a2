@@ -558,7 +558,7 @@ footer .main-footer h5 {
   line-height: normal;
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 992px) {
   p {
     font-size: 14px !important;
   }
@@ -569,7 +569,10 @@ footer .main-footer h5 {
     font-size: 20px !important;
   }
   header .header-banner {
-    height: 60vh !important;
+    height: 70vh !important;
+  }
+  .travel-card .main-travel-card {
+    padding: 0;
   }
   section {
     margin: 50px 0;
@@ -676,6 +679,7 @@ footer .main-footer h5 {
   .travel-card .main-travel-card .main-travel-card1 {
     width: 100%;
     margin-bottom: 10px;
+    padding: 20px;
   }
   .choose .main-chppse .chppse-card .single-card {
     width: 100%;

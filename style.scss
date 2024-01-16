@@ -35,7 +35,7 @@ $prymary-color: #ff5400;
 header {
   height: 100vh;
   nav {
-    padding: 20px 0;
+    padding: 30px 0;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -94,6 +94,7 @@ header {
       height: 100%;
       width: 100%;
       z-index: -9;
+      border-radius: 16px;
     }
 
     .header-heading {
@@ -301,7 +302,8 @@ header {
       text-align: center;
       font-weight: 400;
       line-height: 26px;
-      margin: 12px 0;
+      margin: 22px 0;
+      margin-bottom: 40px;
     }
     .single-deals {
       margin-bottom: 24px;
@@ -401,4 +403,112 @@ header {
     }
   }
 }
+// newsletter
+.newsletter {
+  .main-newsletter {
+    display: flex;
+    justify-content: space-between;
+    gap: 24px;
+    .newsletter-text {
+      width: 40%;
+      border-radius: 16px;
+      border: 1px solid #ff5400;
+      padding: 30px;
+      h3 {
+        color: #131318;
+        font-size: 24px;
+        font-weight: 800;
+      }
+      p {
+        color: #5a5a5d;
+
+        font-size: 16px;
+        padding-bottom: 20px;
+        margin: 10px 0;
+        font-weight: 400;
+        line-height: 26px;
+        border-bottom: 1px solid rgba(19, 19, 24, 0.1);
+      }
+      input {
+        color: rgba(19, 19, 24, 0.3);
+        border-radius: 8px;
+        background: rgba(19, 19, 24, 0.116);
+
+        border: 0;
+        display: block;
+        width: 393px;
+        padding: 14px 10px;
+        flex-shrink: 0;
+        margin-top: 20px;
+      }
+      .submit-btn {
+        text-align: center;
+        margin-top: 20px;
+        a {
+          display: block;
+        }
+      }
+    }
+    .newsletter-img {
+      position: relative;
+      .offer {
+        text-align: center;
+        color: #fff;
+        background-color: #ff5400;
+        padding: 20px;
+        position: absolute;
+        content: "";
+        right: 10px;
+        bottom: 40px;
+        border-radius: 10px;
+        transform: rotate(-19.628deg);
+      }
+    }
+  }
+}
+// newsletter end
 // main end
+// footer
+footer {
+  background: rgba(19, 19, 24, 0.05);
+  text-align: center;
+  .main-footer {
+    padding: 80px;
+    .footer-logo {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      h3 {
+        color: #131318;
+        font-size: 32px;
+        font-weight: 800;
+        span {
+          color: #ff5400;
+        }
+      }
+    }
+    p {
+      color: #5a5a5d;
+
+      text-align: center;
+      margin: 10px 0;
+      line-height: 26px;
+    }
+    .footer-icon {
+      padding-bottom: 40px;
+      border-bottom: 1px solid rgba(19, 19, 24, 0.1);
+      text-align: center;
+      margin-top: 20px;
+    }
+    h5 {
+      margin-top: 40px;
+      color: #131318;
+
+      font-size: 16px;
+
+      font-weight: 300;
+      line-height: normal;
+    }
+  }
+}
+// footer
